@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact — Adnan Habib</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0d0d0d" />
+<meta name="description" content="Portfolio of Adnan Habib — Digital Marketer, SEO Specialist, Web & Graphic Designer, and After Effects Video Editor." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="https://fav.farm/%F0%9F%92%BB" />
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Adnan<span>Habib</span></a>
+    <button class="nav-toggle" aria-label="Open navigation" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav" class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="blog.html">Blog</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Contact</h1>
+  <p>Send a message — I'll reply within 24 hours.</p>
+  <form class="contact-form" onsubmit="return fakeSubmit(event)">
+    <div class="grid-2">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+    </div>
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Send</button>
+  </form>
+  <div class="contact-cards grid-3">
+    <div class="card"><strong>Email:</strong> hello@adnanhabib.dev</div>
+    <div class="card"><strong>WhatsApp:</strong> +92-XXX-XXXXXXX</div>
+    <div class="card"><strong>Location:</strong> Peshawar, Pakistan</div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Adnan Habib</h4>
+      <p>Digital Marketing • SEO • Web Dev • Graphic Design • Video Editing</p>
+    </div>
+    <div>
+      <h5>Quick Links</h5>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <ul>
+        <li>📧 hello@adnanhabib.dev</li>
+        <li>📱 WhatsApp: +92-XXX-XXXXXXX</li>
+        <li>📍 Peshawar, Pakistan</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container copyright">
+    <p>© 2025 Adnan Habib. All rights reserved.</p>
+  </div>
+</footer>
+<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
